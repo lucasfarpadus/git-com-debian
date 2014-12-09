@@ -38,9 +38,16 @@ Primeiro projeto para code.education
    Nessa parte considera-se criada a conta no GitHub com a devida chave de autenticação criada no Git.  
 
   1. Cria-se um novo repositório no GitHub com o nome "git-com-debian".  
-  2. Com os seguintes comandos, cria-se o vínculo do repositório local com o GitHub.  
+
+  2. Com o seguinte comando, cria-se o vínculo do repositório local com o GitHub.  
+
    ```
    git remote add origin https://github.com/lucasfarpadus/git-com-debian.git  
+   ```
+
+  3. Com esse último comando chega-se ao objetivo.  
+
+   ```
    git push origin master
    ```
 
