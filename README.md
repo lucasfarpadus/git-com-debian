@@ -26,8 +26,8 @@ Primeiro projeto para code.education
    touch README.md
    nano README.md
    ```
-+ Nesse ponto edita-se o arquivo incluindo o conteúdo do documento presente.  
-+ Logo após ser salvo com as devidas edições, passa-se para a série de comandos para chegar até o primeiro *commit*
+  + Nesse ponto edita-se o arquivo incluindo o conteúdo do documento presente.  
+  + Logo após ser salvo com as devidas edições, passa-se para a série de comandos para chegar até o primeiro *commit*
 
    ```
    git add .
@@ -37,17 +37,20 @@ Primeiro projeto para code.education
 3. Chegando ao *push*  
    Nessa parte considera-se criada a conta no GitHub com a devida chave de autenticação criada no Git.  
 
-  1. Cria-se um novo repositório no GitHub com o nome "git-com-debian".  
+  + Cria-se um novo repositório no GitHub com o nome "git-com-debian".  
 
-  2. Com o seguinte comando, cria-se o vínculo do repositório local com o GitHub.  
+  + Com o seguinte comando, cria-se o vínculo do repositório local com o GitHub.  
 
    ```
    git remote add origin https://github.com/lucasfarpadus/git-com-debian.git  
    ```
 
-  3. Com esse último comando chega-se ao objetivo.  
+  + Com esse último comando chega-se ao objetivo.  
 
    ```
    git push origin master
    ```
 
+***
+
+Conclui-se assim esta primeira fase.
