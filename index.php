@@ -1,3 +1,3 @@
 <?php
-phpinfo();
+require 'infp.php';
 echo"Ola mundo." ;
